@@ -118,6 +118,14 @@ hr {
     font-weight: bold;
 }
 
+
+/* ######################## */
+
+.ourStory {
+    paddding: 50px;
+}
+
+
 .addToCart {
     padding: 50px;
 }
