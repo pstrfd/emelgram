@@ -62,7 +62,7 @@ hr {
 }
 
 
-/* ######################## */
+/* ##### CARD ###### */
 
 
 .cardIcon {
@@ -101,7 +101,7 @@ hr {
 }
 
 
-/* ######################## */
+/* ##### INGREDIENTS ###### */
 
 
 .ingredient {
@@ -118,19 +118,6 @@ hr {
     font-weight: bold;
 }
 
-
-/* ######################## */
-
-.ourStory {
-    padding: 50px;
-    font-size: 20px;
-    font-weight: bolder;
-    color: #777777;
-}
-
-/* ######################## */
-
-
 .addToCart {
     padding: 50px;
 }
@@ -139,6 +126,18 @@ hr {
     color: white;
     padding-top: 10px;
 }
+
+/* ##### MY STORY ###### */
+
+.myStory {
+    color: #777777;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+/* ##### FOOTER ###### */
+
 
 .footer {
     background-color: #444444;
