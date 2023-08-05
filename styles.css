@@ -1,7 +1,6 @@
 body {
     font-family: 'Alexandria', sans-serif;
     font-size: 14px;
-    letter-spacing: .75px;
     color: white;
     background-color: #333333;
     text-align: center;
@@ -32,7 +31,14 @@ hr {
     font-size: 28px;
     font-weight: bolder;
     padding: 5px;
-    letter-spacing: 1.25px;
+    
+}
+
+.productNameLight {
+    font-size: 28px;
+    font-weight: light;
+    padding: 5px;
+    
 }
 
 .productSubName {
