@@ -1,5 +1,6 @@
 body {
     font-family: 'Alexandria', sans-serif;
+    font-weight: normal;
     font-size: 14px;
     color: white;
     background-color: #333333;
@@ -29,14 +30,14 @@ hr {
 
 .productName {
     font-size: 28px;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 5px;
     
 }
 
 .productNameLight {
     font-size: 28px;
-    font-weight: light;
+    font-weight: lighter;
     padding: 5px;
     
 }
@@ -58,7 +59,7 @@ hr {
 
 .origPrice {
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: bold;
     padding-left: 20px;
 }
 
@@ -138,7 +139,7 @@ hr {
 .myStory {
     color: #777777;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: bold;
     padding-bottom: 50px;
 }
 
@@ -153,7 +154,7 @@ hr {
 
 .contentName {
     font-size: 35px;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 10px;
 }
 
