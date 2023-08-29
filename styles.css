@@ -10,6 +10,13 @@ body {
     margin: 0;
 }
 
+homePage {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 a {
     color: white;
 }
