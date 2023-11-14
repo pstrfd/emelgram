@@ -5,16 +5,16 @@ body {
     color: white;
     background-color: #333333;
     text-align: center;
+    justify-content: center;
     overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
 
-homePage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+.homePage {
+    margin: 30%;
+}  
+
 
 a {
     color: white;
@@ -29,23 +29,41 @@ hr {
     border: 1px solid rgba(255,255,255,.25);
 }
 
+.carousel{
+    height: 600px; 
+    perspective: 250px;    
+    
+}
+.carousel .carousel-item {
+	width: 300px;
+	background: #434343;
+	padding: 20px;
+	height: 500px;
+	text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: inset gray 0px 0px 60px -12px; 
+}
+
 .productImage {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+}
+
+.product {
 }
 
 .productName {
-    font-size: 28px;
-    font-weight: bold;
-    padding: 5px;
-    
+    padding-top: 40px;
 }
 
 .productNameLight {
     font-size: 28px;
     font-weight: lighter;
     padding: 5px;
-    
 }
 
 .productSubName {
@@ -66,8 +84,9 @@ hr {
 .origPrice {
     font-size: 18px;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 30px;
 }
+
 
 .productDetails {
     padding: 20px;
