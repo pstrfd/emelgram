@@ -43,8 +43,7 @@ hr {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    box-shadow: inset gray 0px 0px 60px -12px; 
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), inset gray 0px 0px 60px -12px;
 }
 
 .productImage {
